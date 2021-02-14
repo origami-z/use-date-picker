@@ -1,0 +1,8 @@
+.Cell {
+  box-sizing: border-box;
+  display: inline-flex;
+  justify-content: center;
+  min-width: 32px;
+  padding: 4px;
+  border: 1px solid gray;
+}
