@@ -1,3 +1,10 @@
+.Calendar:focus {
+  outline-color: blue;
+  outline-style: dotted;
+  outline-width: 2px;
+  outline-offset: 0;
+}
+
 .Cell {
   box-sizing: border-box;
   display: inline-flex;
@@ -13,6 +20,14 @@
   cursor: pointer;
 }
 
+.CellHighlighted {
+  background-color: aliceblue;
+  outline-color: blue;
+  outline-style: dotted;
+  outline-width: 2px;
+  outline-offset: 0;
+}
+
 .CellSelected {
   background-color: mediumblue;
   color: white;
@@ -24,4 +39,8 @@
 
 .CellNotCurrentMonth {
   color: lightslategray;
+}
+
+.Header {
+  text-align: center;
 }
