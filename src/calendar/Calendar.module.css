@@ -5,4 +5,23 @@
   min-width: 32px;
   padding: 4px;
   border: 1px solid gray;
+  user-select: none;
+}
+
+.Cell:hover {
+  background-color: aliceblue;
+  cursor: pointer;
+}
+
+.CellSelected {
+  background-color: mediumblue;
+  color: white;
+}
+
+.CellSelected:hover {
+  background-color: midnightblue;
+}
+
+.CellNotCurrentMonth {
+  color: lightslategray;
 }

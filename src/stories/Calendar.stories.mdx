@@ -1,5 +1,6 @@
 import { Meta, Story, Canvas } from "@storybook/addon-docs/blocks";
 import { Calendar } from "../calendar";
+import { Uncontrolled } from "./calendar";
 
 <Meta title="MDX/Calendar" component={Calendar} />
 
@@ -11,6 +12,9 @@ Markdown documentation.
 export const Template = (args) => <Calendar {...args} />;
 
 <Canvas>
+  <Story name="Uncontrolled">
+    <Uncontrolled />
+  </Story>
   <Story name="Default" args={{}}>
     {Template.bind({})}
   </Story>
